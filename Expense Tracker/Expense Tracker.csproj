@@ -16,6 +16,7 @@
 		</PackageReference>
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0-preview.6.24327.4" />
 		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.3" />
+		<PackageReference Include="Syncfusion.EJ2.AspNet.Core" Version="26.2.7" />
 	</ItemGroup>
 
 </Project>
