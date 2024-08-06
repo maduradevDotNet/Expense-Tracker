@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Expense_Tracker</title>
+    <title>  Expense Tracker</title>
+    <title>  Expense Tracker</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link href="https://cdn.syncfusion.com/ej2/26.2.4/bootstrap5-dark.css" rel="stylesheet" />
 @*     <link rel="stylesheet" href="https://cdn.syncfusion.com/ej2/26.2.4/material.css" /> *@
@@ -35,15 +36,41 @@
             </div>
         </nav>
     </header>
-    <div class="container mt-5">
-        <div class="row justify-content-center">
-            <div class="col-md-10">
-                <main role="main" class="pb-3">
-                    @RenderBody()
-                </main>
+    <div class="main-content">
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="@(ViewData["isDashboard"] == null?"col-md-10":"col-md-12")">
+                    <main role="main" class="pb-3">
+                        @if (ViewData["isDashboard"] == null)
+                        {
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="d-flex flex-column mb-5">
+                                        <div class="d-flex mb-1">
+                                            <div class="flex-grow-1">
+                                                <h3 class="fw-bold">@ViewData["PageTitle"]</h3>
+                                            </div>
+                                            <div>
+                                                @if (ViewData["PageActionText"] != null)
+                                                {
+                                                    <a class="btn btn-success" href="@ViewData["PageActionUrl"]">
+                                                        @ViewData["PageActionText"]
+                                                    </a>
+                                                }
+                                            </div>
+                                        </div>
+                                        <ejs-breadcrumb id="breadcrumb"
+                                                        separatorTemplate="@Html.Raw("<span class='fa-solid fa-angle-right'></span>")"></ejs-breadcrumb>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                        @RenderBody()
+                    </main>
+                </div>
             </div>
         </div>
-
+    </div>
     </div>
 
    
