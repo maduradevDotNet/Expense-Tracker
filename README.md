@@ -1,6 +1,6 @@
 # Expense Tracker App in ASP.NET Core MVC
 
-![Banner Animation](https://your-animation-url.com/banner.gif)
+![Banner Animation](https://github.com/user-attachments/assets/dbc25eaf-6b0d-4d11-a3df-9e764e828cb9)
 
 ## Overview
 
@@ -98,7 +98,7 @@ This Expense Tracker App is developed using ASP.NET Core MVC and integrates Sync
 4. Push to the branch (`git push origin feature/YourFeature`).
 5. Create a Pull Request.
 
-![Contributing Animation](https://your-animation-url.com/contributing.gif)
+![Contributing Animation](https://github.com/user-attachments/assets/dbc25eaf-6b0d-4d11-a3df-9e764e828cb9)
 
 ## License
 
