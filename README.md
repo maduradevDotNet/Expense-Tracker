@@ -73,15 +73,15 @@ This Expense Tracker App is developed using ASP.NET Core MVC and integrates Sync
 
 - **Dashboard View**
 
-    ![Dashboard Screenshot](https://your-image-url.com/dashboard.png)
+    ![Dashboard Screenshot](https://via.placeholder.com/800x400.png?text=Dashboard+View)
 
 - **Categories Grid**
 
-    ![Categories Grid Screenshot](https://your-image-url.com/categories-grid.png)
+    ![Categories Grid Screenshot](https://via.placeholder.com/800x400.png?text=Categories+Grid)
 
 - **Transactions Grid**
 
-    ![Transactions Grid Screenshot](https://your-image-url.com/transactions-grid.png)
+    ![Transactions Grid Screenshot](https://via.placeholder.com/800x400.png?text=Transactions+Grid)
 
 ## Configuration
 
