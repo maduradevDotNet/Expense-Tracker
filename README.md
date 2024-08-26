@@ -1,7 +1,6 @@
 # Expense Tracker App in ASP.NET Core MVC
 
 ![Banner Animation](https://github.com/user-attachments/assets/dbc25eaf-6b0d-4d11-a3df-9e764e828cb9)
-
 ## Overview
 
 This Expense Tracker App is developed using ASP.NET Core MVC and integrates SyncFusion components. This comprehensive ASP.NET Core application showcases the process of building an enterprise-level application from the ground up.
